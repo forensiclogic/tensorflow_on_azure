@@ -1,0 +1,14 @@
+#!/bin/env bash
+#
+# consider:
+# https://gist.github.com/mjdietzx/0ff77af5ae60622ce6ed8c4d9b419f45
+#
+# consider:
+#  https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/tensorflow/
+#
+cd
+
+git clone https://github.com/leestott/Azure-GPU-Setup.git
+cd Azure-GPU-Setup
+./gpu-setup-part1.sh 
+
